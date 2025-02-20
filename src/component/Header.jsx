@@ -23,7 +23,7 @@ export default function Header(){
                     
 
                     <motion.div
-                        variants={NavAnimation(1)}
+                        variants={NavAnimation(0.3)}
                         initial="hidden"
                         whileInView={"show"}
                         className="flex items-center gap-4"
