@@ -42,7 +42,7 @@ export default function Translator() {
                 <div className="flex flex-col lg:flex-row items-center gap-4">
                     {/* Input Textarea */}
                     <textarea
-                        className="w-full lg:w-1/2 p-4 border border-gray-300 rounded-lg resize-none h-40 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        className="w-full lg:w-1/2 p-4 border border-gray-300 rounded-lg resize-none h-40 focus:outline-none focus:ring-2 focus:ring-purple-400"
                         placeholder="Enter text in English..."
                         disabled={isListening}
                         value={inputText + (isListening ? (transcript.length ? " " + transcript : "") : "")}
@@ -50,7 +50,7 @@ export default function Translator() {
                     ></textarea>
 
                     <button
-                        className="p-3 rounded-full bg-blue-500 text-white hover:bg-blue-600 transition"
+                        className="p-3 rounded-full bg-purple-500 text-white hover:bg-purple-600 transition"
                         onClick={handleTranslate}
                         aria-label="Translate"
                     >
@@ -75,11 +75,13 @@ export default function Translator() {
                 <div className="flex justify-center gap-4 mt-6 relative">
                     {/* Conditional Rendering of Animate or Microphone */}
                     {showAnimate ? (
-                        <Animate />
+                        <div onClick={stopVoiceInput} className="cursor-pointer">
+                            <Animate />
+                        </div>
                     ) : (
                         <HiMiniMicrophone
-                            size={32}
-                            className="cursor-pointer hover:text-blue-600"
+                            size={45}
+                            className="cursor-pointer hover:text-purple-600"
                             onClick={handleMicrophoneClick}
                         />
                     )}
