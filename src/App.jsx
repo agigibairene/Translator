@@ -1,10 +1,12 @@
-import Translator from './component/Translator'
+import Header from './component/Header'
+import HomePage from './component/HomePage'
 
 function App() {
 
   return (
     <>
-      <Translator />
+      <Header />
+      <HomePage />
     </>
   )
 }

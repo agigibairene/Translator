@@ -1,3 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    body{
+        background-color: #e9e2e8;
+        font-family: "Playfair", serif;
+    }
+
+    .home-btn{
+        background-color: #6c20df;
+        color: white;
+        border-radius: 0.5rem;
+    }
+
+    span{
+        color: #6c20df;
+    }
+
+    .logo{
+        width: 40px;
+    }
+}

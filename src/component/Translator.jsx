@@ -8,11 +8,10 @@ import Animate from "./Animate";
 export default function Translator() {
     const [inputText, setInputText] = useState("");
     const [translatedText, setTranslatedText] = useState("");
-    const [showAnimate, setShowAnimate] = useState(false); // State to toggle between microphone and animation
+    const [showAnimate, setShowAnimate] = useState(false); 
 
     const { isListening, transcript, startListening, stopListening } = useSpeechToText({ continuous: true });
 
-    // Sync `showAnimate` with `isListening`
     useEffect(() => {
         setShowAnimate(isListening);
     }, [isListening]);
