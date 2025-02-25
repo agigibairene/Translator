@@ -21,15 +21,15 @@ The app uses React with Vite for fast development and Hot Module Replacement (HM
 - **User-Friendly UI**: Simple, clean, and intuitive design.
 
 ## Tech Stack
-- Frontend: React.js, Vite, Tailwind CSS
-- Backend: Node.js, Express.js
-- Machine Learning Models: TensorFlow, PyTorch
-- Speech Recognition: Google Cloud Speech-to-Text API
-- Translation Models: Custom NLP models trained on Kinyarwanda-English datasets
-- Development Tools:
+- **Frontend**: React.js, Vite, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Machine Learning Models**: TensorFlow, PyTorch
+- **Speech Recognition**: Google Cloud Speech-to-Text API
+- **Translation Models**: Custom NLP models trained on Kinyarwanda-English datasets
+- **Development Tools**:
   - ```@vitejs/plugin-react``` for Babel-based Fast Refresh
   - ```@vitejs/plugin-react-swc``` for SWC-based Fast Refresh
-- Deployment: Vercel
+- **Deployment**: Vercel
 
 # React + Vite
 
