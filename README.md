@@ -54,7 +54,9 @@ Currently, two official plugins are available:
      ```
      npm run dev
      ```
-
+## UI images
+![Image](https://github.com/user-attachments/assets/81ff798f-204a-4a31-97ca-79528f127215)
+![Image](https://github.com/user-attachments/assets/00b58ac0-aaa1-4fde-9e94-daa856b3fd94)
 
 
 
